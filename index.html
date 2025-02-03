@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1. 0">
   <title>Justice</title>
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,17 +14,19 @@
   <!-- daisyUI Tailwind CDN -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  <style>
-    .poopins-fonts {
-      font-family: "Poppins", serif;
-    }
+</head>
+<style>
+  .poopins-fonts {
+    font-family: "Poppins", serif;
+  }
 
-    .garamond-font {
-      font-family: "EB Garamond", serif;
-    }
-  </style>
+  .garamond-font {
+    font-family: "EB Garamond", serif;
+  }
+</style>
 </head>
 
 <body class="max-w-[1170px] mx-auto">
@@ -81,9 +83,10 @@
         </p>
       </div>
       <div class="flex justify-center space-x-2 md:space-x-5">
-          <input class="p-2 md:p-5 rounded-lg md:w-[500px]" type="text" placeholder="Search your services">
-          <button class="p-2 md:py-[17px] md:px-[39px] bg-[#B68C5A] text-white text-sm md:text-xl font-semibold rounded-lg">Search</button>
-      </div>   
+        <input class="p-2 md:p-5 rounded-lg md:w-[500px]" type="text" placeholder="Search your services">
+        <button
+          class="p-2 md:py-[17px] md:px-[39px] bg-[#B68C5A] text-white text-sm md:text-xl font-semibold rounded-lg">Search</button>
+      </div>
     </div>
   </header>
   <main>
@@ -111,7 +114,8 @@
           </div>
         </div>
         <!-- card 2 -->
-        <div class="bg-gradient-to-b from-[#F3F3F3] to-[#F3F3F3 to-0%] md:border-x md:border-b flex flex-col justify-center items-center pt-[56px] pb-[70px]">
+        <div
+          class="bg-gradient-to-b from-[#F3F3F3] to-[#F3F3F3 to-0%] md:border-x md:border-b flex flex-col justify-center items-center pt-[56px] pb-[70px]">
           <div>
             <img class="mb-[32px]" src="images/criminal.png" alt="">
           </div>
@@ -177,10 +181,99 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="mb-8 md:mb-16">
+        <h1 class="garamond-font text-[20px] md:text-[40px] font-bold md:font-extrabold text-center mb-3 md:mb-6">What Our Client Say</h1>
+        <p class="text-center mx-2 md:mx-0">There are many variations of passages of Lorem Ipsum available, but the majority have <br class="hidden md:block poopins-fonts"> suffered alteration in some form, by injected humour.</p>
+      </div>
+      <div class="carousel w-full mb-[70px] md:mb-[140px]">
+        <div id="slide1"
+          class="carousel-item relative w-full  bg-[url(/images/banner.png)] bg-cover h-auto md:h-[500px] rounded-xl">
+          <div class="w-[70%] mx-auto py-[96px]">
+            <div>
+              <img class="mx-auto mb-6" src="images/Ellipse 1.png" alt="">
+            </div>
+            <div>
+              <h1 class="garamond-font text-2xl font-extrabold text-center text-white mb-1">Awlad Hossain</h1>
+              <p class="poopins-fonts text-white text-center mb-8">UIX Designer</p>
+              <p class="text-center poopins-fonts text-white">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
+                more obscure Latin words, consectetur.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2"
+          class="carousel-item relative w-full bg-[url(/images/slider-2.jpg)] bg-cover h-auto md:h-[500px] rounded-xl">
+          <div class="w-[70%] mx-auto py-[96px]">
+            <div>
+              <img class="mx-auto mb-6" src="images/Ellipse 1.png" alt="">
+            </div>
+            <div>
+              <h1 class="garamond-font text-2xl font-extrabold text-center text-white mb-1">Awlad Hossain</h1>
+              <p class="poopins-fonts text-white text-center mb-8">UIX Designer</p>
+              <p class="text-center poopins-fonts text-white">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
+                more obscure Latin words, consectetur.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3"
+          class="carousel-item relative w-full bg-[url(/images/slider-3.jpg)] bg-cover h-auto md:h-[500px] rounded-xl">
+          <div class="w-[70%] mx-auto py-[96px]">
+            <div>
+              <img class="mx-auto mb-6" src="images/Ellipse 1.png" alt="">
+            </div>
+            <div>
+              <h1 class="garamond-font text-2xl font-extrabold text-center text-white mb-1">Awlad Hossain</h1>
+              <p class="poopins-fonts text-white text-center mb-8">UIX Designer</p>
+              <p class="text-center poopins-fonts text-white">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
+                more obscure Latin words, consectetur.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4"
+          class="carousel-item relative w-full bg-[url(/images/slider-1.jpg)] bg-cover h-auto md:h-[500px] rounded-xl">
+          <div class="w-[70%] mx-auto py-[96px]">
+            <div>
+              <img class="mx-auto mb-6" src="images/Ellipse 1.png" alt="">
+            </div>
+            <div>
+              <h1 class="garamond-font text-2xl font-extrabold text-center text-white mb-1">Awlad Hossain</h1>
+              <p class="poopins-fonts text-white text-center mb-8">UIX Designer</p>
+              <p class="text-center poopins-fonts text-white">Contrary to popular belief, Lorem Ipsum is not simply
+                random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
+                more obscure Latin words, consectetur.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
   </footer>
+
 </body>
 
 </html>
